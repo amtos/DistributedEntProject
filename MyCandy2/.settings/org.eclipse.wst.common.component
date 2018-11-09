@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MyCandy2">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
+        <dependent-module archiveName="MyCandy2-InventoryManagement-EJBClient.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/MyCandy2-InventoryManagement-EJBClient/MyCandy2-InventoryManagement-EJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="MyCandy2"/>
+        <property name="java-output-path" value="/MyCandy2/WebContent/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
