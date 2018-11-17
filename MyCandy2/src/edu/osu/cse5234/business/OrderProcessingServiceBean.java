@@ -81,6 +81,7 @@ public class OrderProcessingServiceBean {
     		{
     		List<LineItem> items = order.getItems();
     		List<Item> orderlist = new ArrayList<Item>();
+    	
     		for(LineItem e:items)
     		{
     			Item item1=new Item();
@@ -136,11 +137,13 @@ public class OrderProcessingServiceBean {
     	InventoryService invServ = ServiceLocator.getInventoryService();
     	List<LineItem> items = order.getItems();
     	List<Item> orderlist = new ArrayList<Item>();
+    	int i=0;
 		for(LineItem e:items)
 		{
 			Item item1=new Item();
 			item1.setId(e.getId());
 			item1.setQuantity(e.getQuantity());
+		//	order.getItems().get(i).setItemNumber(itemNumber);
 			item1.setPrice(e.getPrice());
 			orderlist.add(item1);
 		}

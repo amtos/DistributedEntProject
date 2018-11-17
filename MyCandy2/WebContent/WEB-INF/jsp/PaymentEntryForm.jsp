@@ -11,6 +11,7 @@
 </head>
 <body>
 <%@ include file="header.jsp" %> 
+<div class="bodyconte">
 <form:form modelAttribute="payment" method="post" action="submitPayment">
 
     <table width="400" border="1">
@@ -46,6 +47,7 @@
 
     </table>
 </form:form>
+</div>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

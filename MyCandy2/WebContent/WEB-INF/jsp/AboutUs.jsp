@@ -9,12 +9,14 @@
 </head>
 <body>
 <%@ include file="header.jsp" %> 
+<div class="bodyconte">
 <h2>CEO Alina Thai</h2>
 <p>Alina's drive and passion know no bounds. She built this company from the ground up with her own two hands.</p>
 <h2>CFO Amtoj Sandhu</h2>
 <p>Amtoj has managed the finances of the company for the last five years. He can personally claim credit for billions of dollars of investments.</p>
 <h2>CTO Rob LaTour</h2>
 <p>Rob has managed the technology of the company for the last two years. Among his many exploits is foiling an attack from an Eastern European country that was trying to steal credit card information.</p>
+</div>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

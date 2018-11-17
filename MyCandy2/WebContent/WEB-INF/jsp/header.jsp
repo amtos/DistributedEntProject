@@ -12,25 +12,24 @@
 <title>Insert title here</title>
 </head>
 <body>
+  <div class="bg">
 <center>
-<h3>Delectable Delights</h3>
-<h5>Find candies from all over the world</h5>
-
-<div id="one">
-<ul id="two">
-
-
-
-
-</ul>
-</div>
+ 
+<h1 class="title1">Delectable Delights</h1>
+<h3><i>"The candy store for Mr. Worldwide"</i> -- Pitbull</h3>
 </center>
-<div class="topnav">
-  <a class="active" href="/MyCandy/">Home</a>
- <a href="/MyCandy/purchase">Purchase</a>
-  <a href="/MyCandy/AboutUs">About Us</a>
-  <a href="/MyCandy/ContactUs">Contact</a>
+
+
+
+  <ul class="nav_bar">
+    <li class="navit"><a class="link" href="/MyCandy/">Home</a></li>
+    <li class="navit"><a class="link" href="/MyCandy/purchase">Purchase</a></li>
+	<li class="navit"><a class="link" href="/MyCandy/AboutUs">About Us</a></li>
+ 	<li class="navit"><a class="link" href="/MyCandy/ContactUs">Contact</a></li>
+     
+  </ul>
 </div>
-  
+
+
 </body>
 </html>

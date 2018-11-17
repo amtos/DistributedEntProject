@@ -11,6 +11,7 @@
 </head>
 <body>
 <%@ include file="header.jsp" %> 
+<div class="bodyconte">
 <form:form modelAttribute="order" method="post" action="purchase/submitItems">
  <c:if test="${not empty sessionScope.error}">
    Error: ${sessionScope.error}
@@ -44,6 +45,7 @@
     </table>
    
 </form:form>
+</div>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

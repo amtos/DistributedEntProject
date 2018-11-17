@@ -10,9 +10,11 @@
 <title>Confirmed!</title>
 </head>
 <body>
-<%@ include file="header.jsp" %> 
+<%@ include file="header.jsp" %>
+<div class="bodyconte"> 
 <p> The Order No is <c:out value="${order.id}"></c:out>.
 Your order has been submitted, thank you!</p>
+</div>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

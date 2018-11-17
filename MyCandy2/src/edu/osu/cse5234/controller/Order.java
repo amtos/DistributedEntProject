@@ -46,6 +46,7 @@ public class Order {
 	String emailAddress; 
 	//TODO change these to just straight up be a string, per instructions?
 	@OneToMany(cascade = CascadeType.ALL)
+	@JoinColumn(name="ITEM_NUMBER")
 	@JoinColumn(name="CUSTOMER_ORDER_ID_FK")
 	private List<LineItem> items;
 	@OneToOne(cascade = CascadeType.ALL)

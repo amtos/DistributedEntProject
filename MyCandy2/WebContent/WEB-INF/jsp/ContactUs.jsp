@@ -8,8 +8,10 @@
 <title>Contact</title>
 </head>
 <body>
-<%@ include file="header.jsp" %> 
+<%@ include file="header.jsp" %>
+<div class="bodyconte"> 
 TO BE REVEALED
+</div>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

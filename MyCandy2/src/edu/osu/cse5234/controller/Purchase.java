@@ -71,6 +71,7 @@ public class Purchase {
 			LineItem item1=new LineItem();
 			item1.setId(e.getId());
 			item1.setItemName(e.getName());
+			item1.setItemNumber(e.getId());
 			item1.setPrice(e.getPrice());
 			inorderlist.add(item1);
 		}
