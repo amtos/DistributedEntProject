@@ -15,6 +15,7 @@
 <p> The Order No is <c:out value="${order.id}"></c:out>.
 Your order has been submitted, thank you!</p>
 </div>
+<br><br><br>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

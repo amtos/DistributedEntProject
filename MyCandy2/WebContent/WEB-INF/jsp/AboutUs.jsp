@@ -9,6 +9,7 @@
 </head>
 <body>
 <%@ include file="header.jsp" %> 
+<center>
 <div class="bodyconte">
 <h2>CEO Alina Thai</h2>
 <p>Alina's drive and passion know no bounds. She built this company from the ground up with her own two hands.</p>
@@ -17,6 +18,10 @@
 <h2>CTO Rob LaTour</h2>
 <p>Rob has managed the technology of the company for the last two years. Among his many exploits is foiling an attack from an Eastern European country that was trying to steal credit card information.</p>
 </div>
+</center>
+<br>
+<br>
+<br>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

@@ -9,9 +9,24 @@
 </head>
 <body>
 <%@ include file="header.jsp" %>
-<div class="bodyconte"> 
-TO BE REVEALED
+<center>
+<div class="bodyconte">
+
+<h3>US Branch Office</h3>
+<p>Cupertino Loop, California</p>
+<p>Phone: 543217548</p>
+<br>
+<h3>Belgium Branch Office</h3>
+<p>Anderlecht 324, Brussels</p>
+<p>Phone: 9845456688</p>
+<br>
+<h3>Japan Branch Office</h3>
+<p>Honshu 105, Tokyo</p>
+<p>Phone: 4667768877</p>
+<br>
 </div>
+</center>
+<br><br><br>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

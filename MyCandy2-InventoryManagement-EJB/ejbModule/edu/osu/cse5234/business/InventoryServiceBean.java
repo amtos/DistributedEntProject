@@ -91,7 +91,7 @@ public class InventoryServiceBean implements InventoryService {
 		//	if(item.getQuantity().equals(""))
 				//	item.setQuantity("0");
 			//System.out.println("Stock for "+item.getName()+" is "+item.getStock());
-			if((item.getQuantity())>itemList.get(k).getStock())
+			if((item.getQuantity())>itemList.get(k).getStock()  || item.getQuantity()<0)
 			{
 				cond=false;
 			}
@@ -100,7 +100,11 @@ public class InventoryServiceBean implements InventoryService {
 		
 		catch(NullPointerException e)
 		{
-			
+			cond=false;
+		}
+		catch(Exception e)
+		{
+			cond=false;
 		}
 		
 		return cond;
@@ -109,7 +113,7 @@ public class InventoryServiceBean implements InventoryService {
 	@Override
 	public boolean updateInventory(Collection<Item> items) {
 		// TODO temporary infinite inventory
-		try {
+	/*	try {
 			Inventory inv = getAvailableInventory();
 			List<Item> itemList = inv.getList();
 			int k1=0;
@@ -125,7 +129,7 @@ for (Item item : items) {
 catch(NullPointerException e)
 {
 	
-}
+}*/
 		return true;
 	}
 

@@ -87,6 +87,7 @@ public class OrderProcessingServiceBean {
     			Item item1=new Item();
     			item1.setId(e.getId());
     			item1.setQuantity(e.getQuantity());
+    		//	item1.setItemNumber(e.getItemNumber());
     			sum+=e.getQuantity()*e.getPrice();
     			item1.setPrice(e.getPrice());
     			orderlist.add(item1);
@@ -104,6 +105,7 @@ public class OrderProcessingServiceBean {
     		
     		if(Integer.parseInt(confirmNum)<0)
     		{
+    			return "";
     			// abandon order processing. payment did not go through
     		}
     		a.setConfirmationNum(confirmNum);

@@ -44,9 +44,10 @@ public class Order {
 	String customerName;
 	@Column(name="CUSTOMER_EMAIL")
 	String emailAddress; 
+	@Column(name="STATUS")
+	String status="New"; 
 	//TODO change these to just straight up be a string, per instructions?
 	@OneToMany(cascade = CascadeType.ALL)
-	@JoinColumn(name="ITEM_NUMBER")
 	@JoinColumn(name="CUSTOMER_ORDER_ID_FK")
 	private List<LineItem> items;
 	@OneToOne(cascade = CascadeType.ALL)
@@ -66,8 +67,7 @@ public class Order {
 		this.shipping = shipping;
 	}
 
-	@Column(name="STATUS")
-	String status;
+	
 	 
 	public String getCustomerName() {
 		return customerName;

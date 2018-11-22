@@ -27,6 +27,7 @@
 <h3>Business Strategy</h3>
 <p>We import gourmet candies from all over and deliver them right to you! These can be either ordered individually, or we can construct boxes of assorted candies that will be delivered monthly!</p>
 </div>
+<br><br><br>
 <%@ include file="footer.jsp" %>
 
 </body>

@@ -21,7 +21,7 @@ public class LineItem {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="ID")	
 	int id;
-
+	
 	@Column(name="ITEM_NUMBER")
 	int itemNumber;
 	@Column(name="QUANTITY")
