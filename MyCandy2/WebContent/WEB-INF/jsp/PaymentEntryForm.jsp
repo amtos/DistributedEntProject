@@ -14,10 +14,9 @@
 <div class="bodyconte">
 <form:form modelAttribute="payment" method="post" action="submitPayment">
 
-    <table width="400" border="1">
-      <tr>
-      	 <th colspan="3">Payment Information</th>
-      </tr>
+<h3>Payment Details</h3>
+    <table >
+      
       
       <tr>
        

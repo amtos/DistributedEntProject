@@ -12,17 +12,20 @@
 <center>
 <div class="bodyconte">
 
-<h3>US Branch Office</h3>
+<h3><b>US Branch Office</b></h3>
 <p>Cupertino Loop, California</p>
 <p>Phone: 543217548</p>
+<p>Email: dlightus@delus.com</p>
 <br>
-<h3>Belgium Branch Office</h3>
+<h3><b>Belgium Branch Office</b></h3>
 <p>Anderlecht 324, Brussels</p>
 <p>Phone: 9845456688</p>
+<p>Email: dlightbel@delbel.com</p>
 <br>
-<h3>Japan Branch Office</h3>
+<h3><b>Japan Branch Office</b></h3>
 <p>Honshu 105, Tokyo</p>
 <p>Phone: 4667768877</p>
+<p>Email: dlightjpn@delja.com</p>
 <br>
 </div>
 </center>

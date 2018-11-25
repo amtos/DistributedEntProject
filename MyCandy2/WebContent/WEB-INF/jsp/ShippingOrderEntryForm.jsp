@@ -13,11 +13,9 @@
 <%@ include file="header.jsp" %> 
 <div class="bodyconte">
 <form:form modelAttribute="shipping" method="post" action="submitShipping">
-
-    <table width="400" border="1">
-      <tr>
-      	 <th colspan="3">Shipping Information</th>
-      </tr>
+<h3>Shipping Address</h3>
+    <table>
+     
       
       <tr>
         <td><strong>Name</strong></td>

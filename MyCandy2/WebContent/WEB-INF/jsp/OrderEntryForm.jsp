@@ -15,18 +15,12 @@
 <form:form modelAttribute="order" method="post" action="purchase/submitItems">
  <c:if test="${not empty sessionScope.error}">
    Error: ${sessionScope.error}
+ 
 </c:if>
-    <table width="400" border="1">
-      <tr>
-      	 <th colspan="3">Team 4's Glorious Candies</th>
-      </tr>
-      
-      <tr>
-      	 <th>Name</th>
-      	 <th>Price</th>
-      	 <th>Quantity</th>
-      </tr>
-
+  <h3>Try one of our confectionary delights</h3>
+    <table>
+     
+    
 	<c:forEach items="${order.items}" var="item" varStatus="loop">
 		<tr>
 			<td><c:out value="${item.itemName}"></c:out></td>
@@ -38,7 +32,7 @@
 	</c:forEach>
 
 	  <tr>
-		<td colspan="2"><input type="submit" value="Purchase"></td>
+		<td colspan="3"><input type="submit" value="Purchase"></td>
 	  </tr>
 	
 

@@ -13,17 +13,11 @@
 <%@ include file="header.jsp" %> 
 <div class="bodyconte">
 <form method="post">
-
-    <table width="400" border="1">
-      <tr>
-      	 <th colspan="3">Your Order</th>
-      </tr>
+  <h3>Confirm Order</h3>
+    <table>
+     
       
-      <tr>
-      	 <th>Name</th>
-      	 <th>Price</th>
-      	 <th>Quantity</th>
-      </tr>
+    
       
 	<c:forEach items="${order.items}" var="item" varStatus="loop">
 		<tr>
@@ -39,9 +33,7 @@
 <form method="post">
 
     <table width="400" border="1">
-      <tr>
-      	 <th colspan="3">Payment Information</th>
-      </tr>
+      <h3>Payment Details</h3>
       
       <tr>
         <td><strong>Credit Card Number</strong></td>
@@ -69,10 +61,7 @@
 	<form:form modelAttribute="shipping" method="post" action="confirmOrder">
 
     <table width="400" border="1">
-      <tr>
-      	 <th colspan="3">Shipping Information</th>
-      </tr>
-      
+      <h3>Shipping Address</h3>
       <tr>
         <td><strong>Name</strong></td>
         <td><c:out value="${shipping.name}" /></td>
@@ -102,9 +91,12 @@
         <td><strong>Zipcode</strong></td>
         <td><c:out value="${shipping.zip}" /></td>
       </tr>
-
+<tr>
+        <td><strong>Email</strong></td>
+        <td><c:out value="${shipping.email}" /></td>
+      </tr>
 	  <tr>
-		<td colspan="2"><input type="submit" value="Confirm"></td>
+		<td colspan="3"><input type="submit" value="Confirm"></td>
 	  </tr>
 	
     </table>
