@@ -12,12 +12,13 @@
 <body>
 <%@ include file="header.jsp" %>
 <div class="bodyconte"> 
+<br>
 <center>
-<h2> The Order No is <c:out value="${order.id}"></c:out></h2>
+<h2> <b>The Order No is <c:out value="${order.id}"></c:out></b></h2>
 </h3>Your order has been submitted, thank you!</h3>
 </center>
 </div>
-<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

@@ -13,7 +13,7 @@
 <%@ include file="header.jsp" %> 
 <div class="bodyconte">
 <form:form modelAttribute="shipping" method="post" action="submitShipping">
-<h3>Shipping Address</h3>
+<h3><b>Shipping Address</b></h3>
     <table>
      
       
@@ -53,12 +53,15 @@
         <td><strong>Email</strong></td>
         <td><form:input path="email" /></td>
       </tr>
-	  <tr>
-		<td colspan="2"><input type="submit" value="Submit"></td>
-	  </tr>
+	 
 	
 
     </table>
+    <br><br>
+    <table>
+     <tr>
+		<td colspan="2"><input type="submit" value="Submit"></td>
+	  </tr></table>
 </form:form>
 </div>
 <br><br><br>

@@ -14,7 +14,7 @@
 <div class="bodyconte">
 <form:form modelAttribute="payment" method="post" action="submitPayment">
 
-<h3>Payment Details</h3>
+<h3><b>Payment Details</b></h3>
     <table >
       
       
@@ -39,15 +39,18 @@
         <td><form:input path="cardHolderName" /></td>
       </tr>
 
-	  <tr>
-		<td colspan="2"><input type="submit" value="Submit"></td>
-	  </tr>
+	
 	
 
     </table>
+    <br><br>
+    <table>
+      <tr>
+		<td colspan="2"><input type="submit" value="Submit"></td>
+	  </tr></table>
 </form:form>
 </div>
-<br><br><br>
+<br><br><br><br><br>
 <%@ include file="footer.jsp" %> 
 </body>
 </html>

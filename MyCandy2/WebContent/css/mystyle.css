@@ -77,9 +77,10 @@ body {
 	float: left;
 }
 
+
 table {
-	width: 80%;
-	margin:auto;
+	width: 100%;
+	margin:0, auto;
 	margin-top: 20px;
 	border: none;
 	 table-layout: fixed;
@@ -178,23 +179,36 @@ li.navit{
   
 }
 .bodyconte{
-	
+	width:100%;
 color:#424242;
 	display: inline-block;
+	align:center;
 	text-align: center;
 	bottom:10px
 	padding:15px;
 }
 .footer {
 	
-	font-family:Helvetica, sans-serif;
+	font-family:'Hammersmith One', sans-serif;
 	display: inline-block;
+	
 	left: 0;
 	text-align: center;
 	width: 100%;
 	height: 20px;
 	background-color: #808080;
 	color:#fff;
+	bottom:0;
+}
+bodyconte.h2
+{
+	text-align:center;
+
+}
+bodyconte.h3
+{
+	text-align:center;
+
 }
 
 a{

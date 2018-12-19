@@ -13,7 +13,7 @@
 <%@ include file="header.jsp" %> 
 <div class="bodyconte">
 <form method="post">
-  <h3>Confirm Order</h3>
+  <h3><b>Confirm Order</b></h3>
     <table>
      
       
@@ -32,8 +32,8 @@
 
 <form method="post">
 
-    <table width="400" border="1">
-      <h3>Payment Details</h3>
+    <table>
+      <h3><b>Payment Details</b></h3>
       
       <tr>
         <td><strong>Credit Card Number</strong></td>
@@ -58,10 +58,10 @@
 
     </table>
 	</form>
-	<form:form modelAttribute="shipping" method="post" action="confirmOrder">
-
-    <table width="400" border="1">
-      <h3>Shipping Address</h3>
+	
+<form method="post">
+    <table id="shipping">
+      <h3><b>Shipping Address</b></h3>
       <tr>
         <td><strong>Name</strong></td>
         <td><c:out value="${shipping.name}" /></td>
@@ -95,12 +95,15 @@
         <td><strong>Email</strong></td>
         <td><c:out value="${shipping.email}" /></td>
       </tr>
-	  <tr>
-		<td colspan="3"><input type="submit" value="Confirm"></td>
-	  </tr>
+	
 	
     </table>
-</form:form>
+</form>
+<form:form modelAttribute="shipping" method="post" action="confirmOrder">
+<table>  <tr>
+		<td colspan="3"><input type="submit" value="Confirm"></td>
+	  </tr></table>
+	  </form:form>
 </div>
 <br><br><br>
 <%@ include file="footer.jsp" %> 

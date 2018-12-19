@@ -17,7 +17,7 @@
    Error: ${sessionScope.error}
  
 </c:if>
-  <h3>Try one of our confectionary delights</h3>
+  <h3><b>Try one of our confectionary delights</b></h3>
     <table>
      
     
@@ -31,12 +31,15 @@
 		</tr>
 	</c:forEach>
 
-	  <tr>
-		<td colspan="3"><input type="submit" value="Purchase"></td>
-	  </tr>
+	 
 	
 
     </table>
+    <br>
+    <table>
+     <tr>
+		<td colspan="3"><input type="submit" value="Purchase"></td>
+	  </tr></table>
    
 </form:form>
 </div>

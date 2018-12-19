@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center>All rights reserved 2018</center>
+<center><p>All rights reserved 2018</p></center>
 </body>
 </html>
