@@ -1,7 +1,8 @@
 # DistributedEntProject
 
 
-A modular application for a candy store in Java EE
+A modular application for a candy store in Java EE.
+
 HomePage
 ![homepg](https://user-images.githubusercontent.com/43222349/55432296-8a7a4100-5560-11e9-9f37-18a25188484b.jpg)
 
